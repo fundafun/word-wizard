@@ -18,7 +18,7 @@ FONT_SIZE = 36
 
 # Set up display
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Word Game")
+pygame.display.set_caption("Word Wizard")
 
 # Fonts
 font = pygame.font.Font(None, FONT_SIZE)
@@ -47,7 +47,7 @@ def generate_letters():
 # Splash screen function
 def splash_screen():
     screen.fill(GREY)
-    display_text("Welcome to the Word Game!", 100, 50, RED)
+    display_text("Welcome to the Word Wizard!", 100, 50, RED)
     display_text("Press 'S' to start single player", 100, 150, GREEN)
     display_text("Press 'M' to start multiplayer", 100, 200, BLUE)
     display_text("Press 'Q' to quit", 100, 250, PINK)
